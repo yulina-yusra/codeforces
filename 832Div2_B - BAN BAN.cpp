@@ -1,3 +1,7 @@
+// https://codeforces.com/contest/1747/problem/A
+
+
+
 #include<bits/stdc++.h>
 #define ll long long
 #define lld long double
