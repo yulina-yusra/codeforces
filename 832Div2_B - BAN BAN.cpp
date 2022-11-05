@@ -1,4 +1,4 @@
-// https://codeforces.com/contest/1747/problem/A
+//https://codeforces.com/contest/1747/problem/B
 
 
 
