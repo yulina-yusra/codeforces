@@ -1,0 +1,41 @@
+//  https://codeforces.com/contest/1747/problem/C
+
+#include<bits/stdc++.h>
+#define ll long long
+#define lld long double
+#define fl(i,n) for(int i=0;i<n;i++)
+#define rl(i,m,n) for(int i=n;i>=m;i--)
+#define pb push_back
+using namespace std;
+
+int main()
+{
+    ll n;
+    cin>>n;
+    while(n--)
+    {
+        ll m;
+        cin>>m;
+        ll a[m];
+        ll flag=1,minn=INT_MAX,minind=0;
+
+        for(int i=0; i<m; i++)
+        {
+            cin>>a[i];
+            if(minn>a[i])
+            {
+                minn=a[i];
+                minind=i;
+            }
+        }
+        if(minind==0)
+        {
+            cout<<"Bob\n";
+
+        }
+        else
+            cout<<"Alice\n";
+    }
+
+    return 0;
+}
